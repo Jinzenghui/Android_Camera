@@ -24,7 +24,7 @@ public class FaceView extends ImageView{
 	private Face[] mFaces;
 	private Matrix mMatrix = new Matrix();                      //Android的矩阵对象，Android本身不能对图像或组件进行变换，但它可以和其它API结合起来控制图形，组件的变换
 	private RectF mRect = new RectF();                           //用四个单精度浮点坐标表示的矩阵
-	private Drawable mFaceIndicator = null;                   //Android中可绘制的对象为Drawable
+	private Drawable mFaceIndicator = null;                            //Android中可绘制的对象为Drawable
 
 	public FaceView(Context context, AttributeSet attrs) {
 		super(context, attrs);
